@@ -1,13 +1,20 @@
 package trietest;
 import java.util.*; 
 
-/*** Implement this class ***/
 public class Trie {
+ 
+ char c;
+		Trie[] children;
+		boolean word;
  
    /**
     * Construct an empty Trie with just a root node.
     */
    public Trie()
+    
+   this.c=0;
+			this.children = new Trie[26];
+			this.word = false;
            
    /** 
     * Adds a word to the trie (or increases its frequency 
