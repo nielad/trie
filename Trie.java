@@ -12,9 +12,9 @@ public class Trie {
     */
    public Trie()
     
-   this.c=0;
-			this.children = new Trie[26];
-			this.word = false;
+   	this.c=0;
+	this.children = new Trie[26];
+	this.word = false;
            
    /** 
     * Adds a word to the trie (or increases its frequency 
